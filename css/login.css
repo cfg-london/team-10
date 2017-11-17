@@ -42,3 +42,6 @@ button {
 button:hover, button:active, button:focus {
   background: #555555;
 }
+h1{
+	color: red; 
+}
