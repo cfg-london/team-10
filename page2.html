@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <head>
 <title>Forum</title>
+<style>
+html{
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+  text-align: center;
+}
+</style>
 </head>
 <body>
   <h1>Forum Name</h1>
-<form>
-  <input type="text" placeholder="Insert text here.">
-  <input type"submit">
-</form>
+  <form id="entryform" action="Search/doSearch" method="get">
+  				<input type="text" class="search" name="search" placeholder="Please enter text here.">
+  				<input type="submit" value="Submit" class="button">
+  			</form>
 </body>
 </html>
