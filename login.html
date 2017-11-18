@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+<style>
+body {
+  background-color: #F2F4F4;
+}
+
+.login-page {
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form input {
+  outline: 5;
+  background: #EEEEEE;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #D12727;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 2px
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #555555;
+}
+</style>
+
+
+
+		<title>Login Form</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="loginformstyle.css">
+	</head>
+
+	<div class="login-page">
+	<div class="form">
+		<form action="page1.html" method="POST"class="login-form">
+			<input type="text" name="username" placeholder="Username"/>
+			<input type="password" name="password" placeholder="Password"/>
+			<button type='submit' value="Submit">Login</button>
+		</form>
+	</div>
+	</div>
+</html>
