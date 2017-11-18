@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'dragon.kent.ac.uk',
-	'username' => 'pc357',
-	'password' => 'nonne!p',
-	'database' => 'pc357',
+	'hostname' => '34.241.51.253',
+	'username' => 'force',
+	'password' => 'team10',
+	'database' => 'mysql',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
