@@ -82,13 +82,14 @@ div2{
 .cell {
   padding: 6px 12px;
   display: table-cell;
+  float: relative;
 }
 
 
 #container{
   vertical-align: middle;
   margin: 25px auto;
-
+ 
   width: 250px;
   height: 50px;
 }
@@ -109,16 +110,14 @@ div2{
                 padding:6px 15px;
                 left:-5px;
                 border:1.75px solid #000000;
-
-                }
+				
+                
+}
 
 .button:hover  {
                 background-color:#fafafa;
                 color:#0d3251;
 				border:1.75px solid #aba7a7;
-}
-div{
-    font-family: "Arial Narrow";
 }
 
 </style>
@@ -126,14 +125,18 @@ div{
 <body>
   <img class="logo" src="logo.png" alt="Clic Sargent Icon">
   <div class="topnav">
-    <a href="#home">Home</a>
-    <a class="active" href="#forums">Forums</a>
+    <a class="active" href="#home">Home</a>
+    <a href="#forums">Forums</a>
     <a href="#vlog">Vlog</a>
     <a href="#faqs">FAQs</a>
   </div>
-  
+  <div id="container">
   <h1>Ask Albert Forum:</h1>
 
+  <form id="entryform" action="Search/doSearch" method="get">
+      <input type="text" class="search" name="search" placeholder="Please enter text here.">
+      <input type="submit" value="Submit" class="button">
+  </form>
 </div>
 <br></br>
   <div class="wrapper">
@@ -142,46 +145,37 @@ div{
 
     <div class="row header">
       <div class="cell">
-        Name:
+        Name:	
       </div>
       <div class="cell">
         Post:
       </div>
       <div class="cell">
         Posted at:
-        Name
-      </div>
-      <div class="cell">
-        Post
-      </div>
-      <div class="cell">
-        16:05 Posted at
       </div>
     </div>
-    
-        <div class="row">
-          <div class="cell">
-          Anna Smith
-          <br><br>
-          <td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
-          </div>
-          <div class="cell">
-          Question
-          </div>
-          <div class="cell">
-            18:06 25th September 2017
-    				<br></br>
-    		Luke Peters
-          </div>
-          <div class="cell">
-            The following post is about:
-    		<br></br>
-    		Skin Cancer
-    		<a href="#View">View</a>
-          </div>
-          <div class="cell">
-            12:34 18/11/2017
-          </div>
-        </div>
+
+    <div class="row">
+      <div class="cell">
+        		<td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
+				<br></br>
+		Luke Peters
+      </div>
+      <div class="cell">
+        The following post is about: 
+		<br></br>
+		Skin Cancer 
+		<a href="#View">View</a>
+      </div>
+      <div class="cell">
+        18/11/2017
+      </div>
+    </div>
+
+
+  </div>
+
+
+    </div>
 </body>
 </html>
