@@ -83,8 +83,39 @@ div2{
   padding: 6px 12px;
   display: table-cell;
 }
+
+
 #container{
-  align:center; 
+  vertical-align: middle;
+  margin: 25px auto;
+ 
+  width: 250px;
+  height: 50px;
+}
+
+
+.search{
+	            padding:7px;
+                background: #ffffff;
+                border:1px solid #000000;
+				color:#000000;
+				 margin-left: 10px;
+}
+
+.button {
+	background-color:#000000;
+                color:#ffffff;
+                position:relative;
+                padding:6px 15px;
+                left:-5px;
+                border:1.75px solid #000000;
+				
+                }
+
+.button:hover  {
+                background-color:#fafafa;
+                color:#0d3251;
+				border:1.75px solid #aba7a7;
 }
 
 </style>
@@ -97,6 +128,7 @@ div2{
     <a href="#vlog">Vlog</a>
     <a href="#faqs">FAQs</a>
   </div>
+  <label>Ask Albert Forum:<form id="entryform" action="Search/doSearch" method="get"></label>
   <div id="container">
   <h1>Ask Albert Forum:</h1>
 
@@ -112,30 +144,45 @@ div2{
 
     <div class="row header">
       <div class="cell">
-        Name	
+        Name:
+      </div>
+      <div class="cell">
+        Post:
+      </div>
+      <div class="cell">
+        Posted at:
+        Name
       </div>
       <div class="cell">
         Post
       </div>
       <div class="cell">
-        Date
+        16:05 Posted at
       </div>
     </div>
 
     <div class="row">
       <div class="cell">
-        		<td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
+      Anna Smith
+      <br><br>
+      <td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
+      </div>
+      <div class="cell">
+      Question
+      </div>
+      <div class="cell">
+        18:06 25th September 2017
 				<br></br>
 		Luke Peters
       </div>
       <div class="cell">
-        The follow post is about: 
+        The following post is about:
 		<br></br>
-		Skin cancer. 
+		Skin Cancer
 		<a href="#View">View</a>
       </div>
       <div class="cell">
-        18/11/2017
+        12:34 18/11/2017
       </div>
     </div>
 
@@ -146,26 +193,34 @@ div2{
 
     <div class="row header">
       <div class="cell">
-        Name	
+        Name:
+      </div>
+      <div class="cell">
+       Post:
+        Name
       </div>
       <div class="cell">
         Post
       </div>
       <div class="cell">
-        Date
+        Posted at:
       </div>
     </div>
 
     <div class="row">
       <div class="cell">
-        		<td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
+    		Saif Charles
 				<br></br>
-		Saif Charles
+    <td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
       </div>
       <div class="cell">
-        The follow post is about: 
+        Question
+      </div>
+      <div class="cell">
+        12:34 25th September 2017
+        The following post is about:
 		<br></br>
-		Work
+		Skin Cancer
 		<a href="#View">View</a>
       </div>
       <div class="cell">
