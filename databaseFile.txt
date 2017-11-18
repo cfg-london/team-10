@@ -14,7 +14,7 @@ CREATE TABLE `Messages` (
   `id` int(11) NOT NULL auto_increment,
   PRIMARY KEY  (`id`),
   KEY `userbane` (`user_username`),
-  CONSTRAINT `userbane` FOREIGN KEY (`user_username`) REFERENCES `Users` (`username`) ON DELETE CASCADE ON UPDATE CASCADE
+  CONSTRAINT `usernane` FOREIGN KEY (`user_username`) REFERENCES `Users` (`username`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 /*Data for the table `Messages` */
