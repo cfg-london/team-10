@@ -120,12 +120,23 @@ div2{
 				border:1.75px solid #aba7a7;
 }
 
+textarea {
+  outline: none;
+  resize: none;
+  padding: 12px;
+  width: 90%;
+  height: 150px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 40px;
+  
+}
 </style>
 </head>
 <body>
   <img class="logo" src="logo.png" alt="Clic Sargent Icon">
   <div class="topnav">
-    <a class="active" href="#home">Home</a>
+    <a class="active" href="page1.html">Home</a>
     <a href="#forums">Forums</a>
     <a href="#vlog">Vlog</a>
     <a href="#faqs">FAQs</a>
@@ -157,7 +168,7 @@ div2{
 
     <div class="row">
       <div class="cell">
-        		<td><img src="button/user-512.png" alt="skin" width="100" height="100"></td>
+        		<td><img src="icons/user-512.png" alt="skin" width="100" height="100"></td>
 				<br></br>
 		Luke Peters
       </div>
@@ -175,6 +186,16 @@ div2{
 
   </div>
 
+  <div class=post>
+          <br><br>
+          What will my chemotherapy session be like?
+          <br><br>
+          <form class=form>
+            <textarea placeholder="Please enter text here."></textarea>
+            <br>
+              <button type="submit" value="Submit">Post a message</button>
+              </form>
+              <br>
 
     </div>
 </body>
