@@ -2,6 +2,9 @@
 <head>
 <title>Forum</title>
 <style>
+html{
+  height: 1100px;
+}
 img.logo{
   width: 30%;
   display: block;
@@ -24,6 +27,8 @@ body {margin:0;}
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
+  font-family: "Arial Narrow";
 }
 
 .topnav a:hover {
@@ -37,6 +42,8 @@ body {margin:0;}
 }
 h1{
  text-align: center;
+ font-weight: bold;
+ font-family: "Arial Narrow";
 }
 table{
   color: #4B5320;
@@ -44,12 +51,6 @@ table{
   margin-right:auto;
   width: 60%;
   text-align: center;
-}
-div2{
-  padding: 50px;
-  margin: 0 auto;
-  position: fixed;
-  float: right; 
 }
 </style>
 </head>
@@ -61,12 +62,15 @@ div2{
     <a href="#vlog">Vlog</a>
     <a href="#faqs">FAQs</a>
   </div>
-  <h1>Forum Name</h1>
+  <h1>Skin cancer forum:</h1>
   <div2>
   <form id="entryform" action="Search/doSearch" method="get">
   				<input type="text" class="search" name="search" placeholder="Please enter text here.">
   				<input type="submit" value="Submit" class="button">
   			</form>
   </div2>
+  
+  
+  
 </body>
 </html>
