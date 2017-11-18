@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+<html>
 <head>
-<title>Forum</title>
+  <meta charset="utf-8">
 <style>
 img.logo{
   width: 20%;
@@ -8,9 +9,7 @@ img.logo{
   margin-left: auto;
   margin-right: auto;
 }
-body {
-  margin:0;
-}
+body {margin:0;}
 
 .topnav {
   overflow: hidden;
@@ -47,28 +46,18 @@ table{
   width: 80%;
   text-align: center;
 }
-#entryform{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0 auto;
-  width: 70%;
-}
 
 </style>
+  <title>CLIC SARGENT</title>
 </head>
 <body>
-  <img class="logo" src="logo.png" alt="Clic Sargent Icon">
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#forums">Forums</a>
-    <a href="#vlog">Vlog</a>
-    <a href="#faqs">FAQs</a>
-  </div>
-  <h1>Forum Name</h1>
-  <form id="entryform" action="Search/doSearch" method="get">
-  				<input type="text" class="search" name="search" placeholder="Please enter text here.">
-  				<input type="submit" value="Submit" class="button">
-  			</form>
+<img class="logo" src="logo.png" alt="Clic Sargent Icon">
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#forums">Forums</a>
+  <a href="#vlog">Vlog</a>
+  <a href="#faqs">FAQs</a>
+</div>
 </body>
 </html>
